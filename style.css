@@ -1,4 +1,4 @@
-.input{
+.input {
     padding: 10px;
     border-radius: 5px;
     &:focus-visible {
@@ -6,28 +6,31 @@
     }
 }
 
-.input-primary{
+.input-primary {
     border: 1px solid rgb(146, 2, 146);
     &:focus-visible{
         outline: 2px solid rgb(146, 2, 146)
     }
 }
 
-.input-secondary{
+.input-secondary {
     border: 1px solid rgb(212, 195, 212);
     &:focus-visible{
         outline: 2px solid rgb(233, 95, 233)
     }
 }
 
-.input-small{
+.input-small {
+    padding: 10px;
     font-size: 10px;
 }
 
-.input-medium{
+.input-medium {
+    padding: 15px;
     font-size: 12px;
 }
 
-.input-large{
+.input-large {
+    padding: 20px;
     font-size: 15px;
 }
